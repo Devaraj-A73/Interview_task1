@@ -50,11 +50,11 @@
                     }
                     out.println("</table>");
                 } else {
-                    // Handle invalid input
+                    // if input not valid
                     out.println("Please enter a valid number of columns.");
                 }
             } catch (NumberFormatException e) {
-                // Handle invalid input (non-integer)
+                // if user entered wrong input (non-integer)
                 out.println("Please enter a valid number of columns.");
             }
         }
